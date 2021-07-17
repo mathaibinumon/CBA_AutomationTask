@@ -42,27 +42,7 @@ public class BlackPearl extends SuiteInitialization {
                 	
                 
  				Assert.assertTrue(loc_SearchHomePage.autocomplete_Islands.checkFuzzyLogic(application.get_SearchInput()),application.get_SearchInput()+" : Island Not Found: ");
-////    				
-                				
-//          				//Switch to New window
-//           				String defaultWindow = Driver.current().getWindowHandle();
-//       				Thread.sleep(3000);
-//        				Set<String> childWindows = Driver.current().getWindowHandles();
-//                				for(String child : childWindows){
-//                				if(!child.equalsIgnoreCase(defaultWindow)){
-//                					Driver.current().switchTo().window(child);
-//                				System.out.println("Child windows- "+child);
-//                				} else {
-//                				System.out.println("There are no child windows");
-//                				}
-//                				}
-                			     
-//                				loc_demoHomePage = PageFactory.init(Driver.current(), Loc_SearchHomePage.class);  
-//                				loc_demoHomePage.HotelMenuName.assertExists();
-//                				
-//                				//Click on Search for Hotel
-//                				loc_demoHomePage.searchByHotel.clickable();
-//                				loc_demoHomePage.searchByHotel.click();
+
                 }
 
 }
