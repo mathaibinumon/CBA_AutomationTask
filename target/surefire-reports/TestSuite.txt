@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 50.141 sec <<< FAILURE! - in TestSuite
+verifyHotelBooking(com.webauto.suite.BlackPearl)  Time elapsed: 20.407 sec  <<< FAILURE!
+java.lang.AssertionError: Unable to find element: By.xpath: (//input[@id='search-input']
+	at com.webauto.suite.BlackPearl.verifyHotelBooking_TC(BlackPearl.java:37)
+	at com.webauto.suite.BlackPearl.verifyHotelBooking(BlackPearl.java:29)
+
+verifyHotelBooking(com.webauto.suite.BlackPearl)  Time elapsed: 20.119 sec  <<< FAILURE!
+java.lang.AssertionError: Unable to find element: By.xpath: (//input[@id='search-input']
+	at com.webauto.suite.BlackPearl.verifyHotelBooking_TC(BlackPearl.java:37)
+	at com.webauto.suite.BlackPearl.verifyHotelBooking(BlackPearl.java:29)
+
