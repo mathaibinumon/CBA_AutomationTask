@@ -37,11 +37,11 @@ public class BlackPearl extends SuiteInitialization {
                 	//Check for islands
                 	loc_SearchHomePage.searchQueryInput.setText(application.get_SearchInput());
                 	
+                	//Press Search Button
+                	loc_SearchHomePage.searchButton.click();
                 	
-                	loc_SearchHomePage.searchQueryInput.click();
-                	
-                
- 				Assert.assertTrue(loc_SearchHomePage.autocomplete_Islands.checkFuzzyLogic(application.get_SearchInput()),application.get_SearchInput()+" : Island Not Found: ");
+                //Assert for island names
+ 				 Assert.assertTrue(loc_SearchHomePage.autocomplete_Islands.checkFuzzyLogic(application.get_SearchInput()),application.get_SearchInput()+" : Island Not Found: ");
 
                 }
 
